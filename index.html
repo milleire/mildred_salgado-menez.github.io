@@ -129,6 +129,24 @@
       color: #777;
     }
 
+    .site-footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+    }
+    
+    .footer-left {
+      text-align: left;
+    }
+    
+    .footer-center {
+      text-align: center;
+    }
+    
+    .footer-right {
+      text-align: right;
+    }
+
     @media (max-width: 650px) {
 
       header {
@@ -461,8 +479,12 @@
 
 
 
-  <footer>
-    © 2026 Mildred Salgado Menez
+  <footer class="site-footer">
+  <span class="footer-left">© 2026 Mildred Salgado Menez</span>
+
+  <span class="footer-center">Last updated August 2026</span>
+
+  <span class="footer-right"></span>
   </footer>
 
 
